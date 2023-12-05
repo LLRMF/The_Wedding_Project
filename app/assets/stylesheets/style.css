@@ -1,0 +1,207 @@
+/* Styles généraux */
+body {
+  background-image: url("https://images.pexels.com/photos/37728/pexels-photo-37728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.btn-secondary {
+  background-color: #E7BCDE;
+}
+
+.footer-custom,
+.ft {
+  color: #505050;
+}
+
+.footer-custom a {
+  color: #505050;
+}
+
+.footer-custom a:hover {
+  color: #ffffff;
+}
+
+.nav-link {
+  color: #E7BCDE;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.custom-bg-color {
+  background-color: #BB9CC0;
+}
+
+.text-custom-color {
+  color: rgb(226, 219, 219);
+}
+
+/* Styles pour .carrejaune_accueil */
+.carrejaune_accueil div {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+}
+
+/* Styles pour .carregris_accueil */
+.carregris_accueil {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+/* Styles pour #div-a-masquer */
+#div-a-masquer {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+/* Styles pour .card */
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #ccc;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Styles pour les boutons */
+.btn {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+/* Styles supplémentaires */
+.mb-4 {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-img-top {
+  border-radius: 8px 8px 0 0;
+}
+
+.d-flex {
+  justify-content: center;
+}
+
+#page_title {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.content {
+  flex: 1;
+}
+
+h1 {
+  color: #484745
+}
+
+.navbar {
+  background-color: transparent !important;
+  color: black !important;
+}
+
+.navbar a {
+  color: black !important;
+}
+
+footer.bg-primary {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border-top: 1px solid black;
+}
+
+footer .ft {
+  color: black;
+}
+
+.custom-card {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  color: #000;
+}
+
+a.bg-primary {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border: 1px solid black;
+  color: black;
+}
+
+a:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+a {
+  transition: all 0.5s;
+}
+
+#div-a-masquer {
+  /* border: 1px solid black; */
+  /* border-radius: 20px; */
+  /* background: white; */
+}
+
+#div-a-masquer .btn {
+  background: none;
+  color: black;
+  width: 48%;
+  height: fit-content;
+  border: none;
+  border: none;
+  text-transform: lowercase;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-weight: bolder;
+
+}
+
+#div-a-masquer a:hover,
+#div-a-masquer button:hover {
+  transform: scale(1) !important;
+  background: black;
+  color: white;
+  transition: all 0.5s;
+}
+
+#div-a-masquer .add-to-cart {
+  width: 100% !important;
+  border-right: none;
+  background: #E7BCDE;
+  border-radius: 20px;
+  color: black;
+  border: none;
+}
+
+#div-a-masquer .form-inline {
+  width: 48%;
+}
